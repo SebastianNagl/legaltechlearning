@@ -1,0 +1,29 @@
+
+#container{
+    height: 200px;
+    position: relative;
+}
+#center{
+    margin: 0;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.button1 {
+    background-color: aqua;
+    width: 500px;
+    height: 100px;
+    font-size: 50px;
+}
+.button1:hover {
+    color: green;
+}
+.test {
+    color:green;
+    font-size:70px;
+    text-align:center
+}
+
